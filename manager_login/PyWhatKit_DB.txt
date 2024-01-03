@@ -1,0 +1,15 @@
+Date: 17/9/2023
+Time: 22:50
+Phone Number: +919000569938
+Message: Leave application was approved by manager on 2023-09-17
+--------------------
+Date: 17/9/2023
+Time: 22:52
+Phone Number: +919000569938
+Message: Leave application was rejected by manager on 2023-09-17
+--------------------
+Date: 17/9/2023
+Time: 22:55
+Phone Number: +919000569938
+Message: Leave application was rejected by manager on 2023-09-17
+--------------------

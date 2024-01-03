@@ -1,0 +1,17 @@
+1. size limit 5mb
+2. separate manager page
+3. change to HR email address
+4. remove st.write(filename) on send mail page
+5. manager approval number to be changed to string on the pdf form
+6. In leave request form it should print "leave has been rejected"
+7. In leave application disable date of application field.
+8. integrate automated sms
+9. line 80 leave_application.py remove reason variable
+10. Change status column to varchar in database and change the values to strings.
+11. In leave_application.py insert status as pending by default.
+12. In leave_status.py try except insert "no records available" if records are not found
+13. taking users phone number to send whatsapp leave update
+14. update manager login with pd.Series(list(rejected)) and approved in else part
+15. Added heading for manager portal
+
+16. user should be able to cancel request
