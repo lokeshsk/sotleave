@@ -91,8 +91,8 @@ def send_email():
                 record2 = df2[df2['REQ_ID']==str(req_id)]
                 x = int(record2['OTP'])
                 #x = record2['OTP'].astype(int)
-                email_sender = 'sot.leave@gmail.com'
-                email_password = 'cpbo msgi jaek dywh'
+                email_sender = 'your_mail'
+                email_password = 'your_pass'
                 email_receiver = emp_email
 
                 # Set the subject and body of the email
