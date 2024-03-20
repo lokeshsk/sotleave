@@ -30,8 +30,8 @@ with form:
     msg['Subject'] = 'Leave Application Form'
     #msg['Body'] = "find the attachment"
     msg['From'] = user
-    msg['To'] = 'hr@woxsen.edu.in; hr.campus@woxsen.edu.in'
-    msg['CC'] = 'dean.st@woxsen.edu.in'
+    msg['To'] = 'to_mail_id_separated_by_semicolon'
+    msg['CC'] = 'cc_mail_id'
     msg.attach(MIMEText(body, "html"))
     file = st.file_uploader("Upload PDF", type=['pdf'])
     
