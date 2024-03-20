@@ -30,8 +30,8 @@ with form:
     msg['Subject'] = 'Leave Application Form'
     #msg['Body'] = "find the attachment"
     msg['From'] = user
-    msg['To'] = 'abhishikta.pramanik@woxsen.edu.in'
-    msg['CC'] = 'dean.st@woxsen.edu.in'
+    msg['To'] = 'to_mail_id'
+    msg['CC'] = 'cc_mail_id'
     msg.attach(MIMEText(body, "html"))
     file = st.file_uploader("Upload Excel", type=['xlsx','csv'])
     
