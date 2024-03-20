@@ -15,8 +15,8 @@ def leave_status_1(empar,empname,status):
     else:
         if status=='approved':
         # Define email sender and receiver
-            email_sender = 'sot.leave@gmail.com'
-            email_password = 'cpbo msgi jaek dywh'
+            email_sender = 'your_mail_id'
+            email_password = 'mail_password'
             email_receiver = emp_email
 
             # Set the subject and body of the email
@@ -38,7 +38,7 @@ def leave_status_1(empar,empname,status):
             em = EmailMessage()
             em['From'] = email_sender
             em['To'] = email_receiver
-            em['CC']='dean.st@woxsen.edu.in'
+            em['CC']='mail_id_to_be_in_CC'
             em['Subject'] = subject
             
             em.set_content(body)
@@ -52,8 +52,8 @@ def leave_status_1(empar,empname,status):
                 smtp.sendmail(email_sender, email_receiver, em.as_string()) 
         else:
             # Define email sender and receiver
-            email_sender = 'sot.leave@gmail.com'
-            email_password = 'cpbo msgi jaek dywh'
+            email_sender = 'your_mail_id'
+            email_password = 'mail_password'
             email_receiver = emp_email
 
             # Set the subject and body of the email
@@ -76,7 +76,7 @@ def leave_status_1(empar,empname,status):
             em['From'] = email_sender
             em['To'] = email_receiver
             em['Subject'] = subject
-            em['CC']='dean.st@woxsen.edu.in'
+            em['CC']='mail_to_keep_in_CC'
             em.set_content(body)
 
             # Add SSL (layer of security)
