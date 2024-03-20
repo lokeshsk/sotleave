@@ -67,9 +67,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`) VALUES
-(1, 'manager', 'c868c25684ea0fa68b8615780ba88de8db6fe0fafd80e992b23ec5b65452efa3'),
-(2, 'amogh', '7be3d0434d34dcb911badafb711a6ec595f9cb3abbabd17e481f38b694d33ac2'),
-(3, 'lokesh', 'e2e835b33f6c3e57b2a3078d38378dac3fe0fdb5734842e378e95d29fbde0bd6');
+(1, 'username', 'hased_pass_will_come here');
+
 
 --
 -- Indexes for dumped tables
