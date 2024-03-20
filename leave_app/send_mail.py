@@ -24,8 +24,9 @@ with form:
         #attach=file.name
         newmail.Attachments.Add(newfile)
         From = None
+        #define TLD here
         for myEmailAddress in ol.Session.Accounts:
-            if "woxsen.edu.in" in str(myEmailAddress):
+            if "@domain" in str(myEmailAddress):
                 From = myEmailAddress
                 break
 
