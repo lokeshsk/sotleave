@@ -23,13 +23,13 @@ def job():
     #print("I'm working...")
     pending_cnt = fetch_db()
     pending_cnt_final = pending_cnt[0][0]
-    account_sid = 'ACd80506079d18a82745f56105e9ed302a'
-    auth_token = '707dd9b241e2821fd07036b4f6d11358'
+    account_sid = 'SID here'
+    auth_token = 'AUTH_TOKEN'
     client = Client(account_sid, auth_token)
     message = client.messages.create(
     from_='+15622964479',
     body='Dear Manager, You have '+ str(pending_cnt_final) + ' pending leave requests. Kindly, do the needful using given link: https://sotmanager.tunnelto.dev',
-    to='+918285575915'
+    to='+91XXXXXXXXXXX'
     )
     print(message.sid)
 
